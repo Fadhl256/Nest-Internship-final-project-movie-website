@@ -1,0 +1,45 @@
+#butn {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 10px 20px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+#butn:hover {
+    background-color:white;
+    color: black;
+}
+#carouselExampleCaptions{
+    margin-bottom: 30px;
+    padding: 30px;
+}
+img{
+    height: 500px;
+    object-fit: cover;
+}
+h5{
+    color: white;
+    font-size: xx-large;
+}
+p{
+    color: white;
+}
+h5:hover{
+    font-weight: bold;
+    color: black;
+}
+p:hover{
+    font-weight: bold;
+    color: black;
+}
+.carousel-caption{
+    font-size: larger;
+    text-align: left;
+}

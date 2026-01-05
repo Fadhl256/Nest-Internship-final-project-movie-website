@@ -1,0 +1,46 @@
+#listcard{
+    margin-top: 35px;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px
+}
+img{
+    width: 100%;
+    height: 500px;
+    border-radius: 15px;
+}
+#cards{
+    margin-bottom: 30px;
+    border-radius: 15px;
+}
+button{
+    background-color: #f5c518;
+    border:2px solid white;
+    color:black
+}
+button:hover{
+    background-color: white;
+    color: black;
+    border:2px solid black
+}
+
+/* Card background + contrast for text and links */
+#listcard #cards .card {
+  background-color: #1c1c1c;
+  color: #ffffff;
+  border: none;
+  border-radius: 15px;
+}
+
+/* Ensure body text inside the card is readable */
+#listcard #cards .card .card-body {
+  color: #ffffff;
+}
+
+/* Override the global link style only inside cards */
+#listcard #cards a {
+  color: #ffffff;
+  border-color: #444;
+  background: transparent;
+}

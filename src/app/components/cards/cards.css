@@ -1,0 +1,26 @@
+.card{
+    border-radius: 15px;
+    background-color: #1c1c1c;
+    color:#ffffff;
+    text-align: left;
+}
+a{
+    background-color: #f5c518;
+    width: 280px;
+}
+a:hover{
+    background-color: #ffffff;
+    color: black;
+}
+#cards{
+    margin-left: 160px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+img{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 400px;
+    object-fit: cover;
+    width: 100%;
+}

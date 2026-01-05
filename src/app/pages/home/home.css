@@ -1,0 +1,15 @@
+.explore{
+    display: flex;
+    justify-content: center;
+    height: 60px;
+}
+a.btn.btn-primary{
+    margin-top: 20px;
+    width: 200px;
+    font-size: 18px;
+    background-color: #f5c518;
+}
+a.btn.btn-primary:hover{
+    background-color: #ffffff;
+    color: black;
+}

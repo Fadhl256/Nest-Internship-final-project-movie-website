@@ -1,0 +1,29 @@
+#forms{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    background-color: #1c1c1c;
+}
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width:80px;
+    background-color:#f5c518;
+    color: black;
+    border-color: white;
+}
+button:hover{
+    background-color: white;
+    color: black;
+}
+form{
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #1c1c1c;
+    color: white;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 540px;
+}
